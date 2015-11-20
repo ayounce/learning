@@ -1,0 +1,25 @@
+/* Element Selectors */
+h1 {
+	color: lightgreen;
+}
+
+/* Class Selectors */
+.primary {
+	color: lightgrey;
+}
+
+.secondary {
+	color: maroon;
+}
+
+h1.primary {
+	color: lightblue;
+}
+
+/* Grouping Common Selectors */
+h1, h2 {
+	font-family: fantasy;
+}
+
+/* CSS Inheritance */
+

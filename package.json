@@ -1,0 +1,9 @@
+{
+  "name": "learning",
+  "version": "0.1.0",
+  "author": "",
+  "description": "Learning html, css, javascript, frameworks and more...",
+  "devDependencies": {
+    "rapid-build": "*"
+  }
+}

@@ -1,0 +1,55 @@
+body {
+	font-size: 14px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Tags */
+a {
+	color: #337ab7;
+}
+a:hover {
+	color: dodgerblue;
+	text-decoration: none;
+}
+
+/* Master Layout */
+header {
+	padding-bottom: 20px;
+	border-bottom: 1px solid lightgrey;
+}
+
+aside {
+	float: left;
+	width: 175px;
+}
+
+main {
+	margin: 0 20px;
+	padding: 0 20px;
+	float: left;
+	width: 545px;
+	border-left: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+}
+
+footer {
+	padding: 25px 0;
+	border-top: 1px solid lightgrey;
+	clear: left;
+	text-align: center;
+}
+
+aside, main {
+	padding-bottom: 25px;
+}
+
+/* Layout Header */
+header h1 {
+	display: inline-block;
+}
+
+/* Layout Aside */
+aside nav a { 
+	display: block;
+
+}
