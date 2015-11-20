@@ -6,8 +6,9 @@ var opts  = {
 	}
 }
 
-var rapid = require('rapid-build')(opts)
+var rapid = require('rapid-build')(opts),
+	build = process.argv[2];
 
-rapid().then(() => {
+rapid(build).then(() => {
     // console.log('whatever you want')
 })
