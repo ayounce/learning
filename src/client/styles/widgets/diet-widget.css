@@ -1,0 +1,29 @@
+/* Diet Widget */
+.diet {
+	background-color: linen;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+/* Header */
+.diet header {
+	border-bottom: 1px solid lightgrey;
+}
+
+.diet header h4 {
+	margin-top: 0;
+}
+
+/* Body */
+.diet .body {
+	border-bottom: 1px solid lightgrey;
+}
+
+/* Footer */
+.diet footer h5 {
+	margin-bottom: 10px;
+}
+
+.diet footer nav {
+	font-size: 12px;
+}

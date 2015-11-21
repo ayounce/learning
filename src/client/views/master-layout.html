@@ -1,4 +1,4 @@
-<header>
+<header class="main-header">
 	<img src="images/squirrel-logo.png">	
 	<h1>Rehabbing Baby Squirrels</h1>
 	<nav>
@@ -11,7 +11,7 @@
 </header>
 
 
-<aside>
+<aside class="main-aside">
 	<h3>Learning</h3>
 	<nav>
 		<a href="/learning">text tags</a>
@@ -28,13 +28,15 @@
 		</a>
 		<a target="_blank" href="http://squirrelweb.co.uk/">SquirrelWeb</a>
 	</nav>
+
+	<div ng-include="'views/widgets/diet-widget.html'"></div>
 </aside>
 
 
 <main ng-view></main>
 
 
-<aside>
+<aside class="main-aside">
 	<h4>
 		Squirrel of the Year
 	</h4>
@@ -46,7 +48,7 @@
 </aside>
 
 
-<footer> 
+<footer class="main-footer"> 
 	<address>
 		Oana Younce<br>
 		706 W Burning Tree Ln<br>

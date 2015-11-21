@@ -13,12 +13,12 @@ a:hover {
 }
 
 /* Master Layout */
-header {
+.main-header {
 	padding-bottom: 20px;
 	border-bottom: 1px solid lightgrey;
 }
 
-aside {
+.main-aside {
 	float: left;
 	width: 175px;
 }
@@ -32,14 +32,14 @@ main {
 	border-right: 1px solid lightgrey;
 }
 
-footer {
+.main-footer {
 	padding: 25px 0;
 	border-top: 1px solid lightgrey;
 	clear: left;
 	text-align: center;
 }
 
-aside, main {
+.main-aside, main {
 	padding-bottom: 25px;
 }
 
@@ -48,8 +48,3 @@ header h1 {
 	display: inline-block;
 }
 
-/* Layout Aside */
-aside nav a { 
-	display: block;
-
-}
