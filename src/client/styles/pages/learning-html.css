@@ -1,0 +1,43 @@
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+th {
+	text-align: left;
+}
+
+th, td {
+	padding: 15px;
+}
+
+.squirrels,
+.squirrels td,
+.squirrels th {
+	border: 1px solid black;
+}
+
+.food {
+	width: 100%;
+	background-color: #f1f1c1;
+}
+
+.food tr:nth-child(even) {
+	background-color: #eee;
+}
+
+ .food tr:nth-child(odd) {
+ 	background-color: #fff;
+}
+
+.food,
+.food td,
+.food th {
+	border: 1px solid black;
+}
+
+.food th {
+ 	color: white;
+ 	background-color: black;
+ }
+

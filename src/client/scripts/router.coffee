@@ -13,22 +13,22 @@ angular.module('app').config ['$routeProvider'
 
 			.when '/photo-gallery',
 				templateUrl: 'views/photo-gallery.html'
-			
+
 			.when '/contact-us',
 				templateUrl: 'views/contact-us.html'
-			
+
 			.when '/behaviour',
 				templateUrl: 'views/behaviour.html'
 
 			.when '/faq',
 				templateUrl: 'views/faq.html'
 
-			.when '/learning',
-				templateUrl: 'views/learning.html'
+			.when '/learning-html',
+				templateUrl: 'views/learning-html.html'
 
 			.when '/html-layout',
 				templateUrl: 'views/html-layout.html'
-			
+
 			.when '/html-layout-2',
 				templateUrl: 'views/html-layout-2.html'
 
