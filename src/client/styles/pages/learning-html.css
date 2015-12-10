@@ -41,3 +41,112 @@ th, td {
  	background-color: black;
  }
 
+.horizontal {
+	padding: 0
+}
+
+.horizontal li {
+	display: inline;
+}
+
+.links li {
+	display: inline;
+}
+
+.links li a {
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 4px 4px 0 0;
+}
+
+ .links li a:hover {
+ 	background-color: orange;
+ 	color: white;
+ }
+
+
+.crazies {
+	background-color: black;
+	color: white;
+	margin: 20px;
+	padding: 20px;
+}
+
+
+.cucu {
+	font: 120%;
+	color: red;
+}
+
+
+.header h1 {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 0;
+}
+
+.moments {
+	line-height: 30px;
+	background-color: #eeeeee;
+	height: 300px;
+	width: 100px;
+	float: left;
+	padding: 5px;
+}
+
+.munchie {
+	width: 350px;
+	float: left;
+	padding: 10px;
+}
+
+.footer {
+	background-color: black;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+}
+
+
+.lamp {
+	width: 100%;
+	border: 1px solid #d4d4d4;
+	margin-top: 15px;
+}
+
+ .lamp th, .lamp td {
+ 	padding: 10px;
+ }
+
+
+.lamp th {
+	width: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
